@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 22431683
+API_HASH = "6ab71bcb282fdf6ac3198399e8a2e2ae"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8129555741:AAG2Hdp2ZUaVz1jrQS3ApVHNaofnRR8lbhs"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://Shadow12:Shadow12@cluster0.ddkep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002292555984
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6993303142
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/all_anime_in_offcial_hindi"
+SUPPORT_GROUP = "https://t.me/OTAKU_ANIME_GC"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFNtIsASqX09sXO5pfcY21W0gh9aZ0Gd2WQ3a8p5ryzVwNwikoTW_ocJ1BxL6oUD22ZHkjQLhU7x9FS_LIG0U2uWB2IowJsHNbH9VT8P5vlo_FMTlcY5IFTg9ltROVuLUuEcH3ZUwmfTEWE6t20M6MskJwN59LfixqN1nkbKX-iOXTM3Y3PTE5GYPmdjZHK0JSxIl4aGEkR2TklCXVgeakXWp95ZcVBlB-6h_jCqYfmWfwT6WPyYcc-ELXCco-SwwXfBSZPglxMDX8IGmKDCPF_gXcMOe81CENNmWeksOy8yrcr3IT7Kh9ghLCYlrhPCeOuT2K0UikTXYScJTc9WbpVV7ey5gAAAAG5nyIVAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+STATS_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+STREAM_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/642493e5920e285cce40f-60df85227dd104b78d.jpg"
 
 
 def time_to_seconds(time):
